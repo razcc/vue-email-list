@@ -27,7 +27,7 @@
 
         <div id="app">
 
-            <div v-for="element in arrayMail">
+            <div v-if="arrayMail.length == 10" v-for="element in arrayMail">
                 {{element}}
             </div>
 
